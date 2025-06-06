@@ -1,3 +1,52 @@
-function mostrarMensagem() {
-  document.getElementById("mensagem").textContent = "Você é capaz de realizar grandes coisas! 💪";
+body {
+  background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #2e8b57;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.hobby-img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, td {
+  border: 1px solid #888;
+  padding: 10px;
+  text-align: center;
+}
+
+.pais-img {
+  width: 100px;
+  border-radius: 8px;
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff4500;
 }
