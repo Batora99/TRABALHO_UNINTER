@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Matheus</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Matheus</h1>
+
+  <p>Meu nome é Matheus, tenho 25 anos e gosto de tecnologia, dinheiro e esportes.</p>
+
+  <ul>
+    <li>Academia</li>
+    <li>Esporte</li>
+    <li>Jogar games</li>
+  </ul>
+
+  <img src="index.html/academia.jpg" alt="Academia" class="hobby-img">
+
+  <table>
+    <tr>
+      <td>Estados Unidos</td>
+      <td><img src="index.html/eua.jpg" alt="Estados Unidos" class="pais-img"></td>
+    </tr>
+    <tr>
+      <td>Japão</td>
+      <td><img src="index.html/japao.jpg" alt="Japão" class="pais-img"></td>
+    </tr>
+    <tr>
+      <td>Brasil</td>
+      <td><img src="index.html/brasil.jpg" alt="Brasil" class="pais-img"></td>
+    </tr>
+  </table>
+
+  <a href="https://www.tecmundo.com.br" target="_blank">Site de tecnologia</a>
+
+  <br><br>
+  <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+  <p id="mensagem"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
